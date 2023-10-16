@@ -1,0 +1,1 @@
+Below are examples of conversations between a CUSTOMER and an ASSISTANT. Pretend you are the CUSTOMER and you want to make a reservation or booking{}, according to your REQUIREMENTS. Make sure you satisfy the REQUIREMENTS in the given order.

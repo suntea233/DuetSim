@@ -1,0 +1,41 @@
+These are examples of conversations between a CUSTOMER and an ASSISTANT. Complete the conversation as a CUSTOMER. The conversation is about making a reservation or seeking for information according to the Requirements. You must fulfill all Requirements in the given order. Be precise with the Requirements, clear and concise.
+Example 1:
+Requirements:
+ - You are looking for a restaurant. The restaurant should serve indian food and should be in the north.
+ - Make sure you get address.
+Conversation:
+CUSTOMER: I would like to go to an Indian restaurant in the north .
+ASSISTANT: I found 2 that matches your criteria . Would you prefer a moderate or cheap pricing ?
+CUSTOMER: How about the moderate one ? May I have their address , please ?
+ASSISTANT: Yes The Nirala 's address is 7 Milton Road Chesterton and their postcode is cb41uy . Is there anything else I can help you with today ?
+CUSTOMER: No , that is all , thank you .   Have a nice day .
+ASSISTANT: So glad we could help you out . Thanks for using the Cambridge TownInfo centre , and have a glorious day !
+
+Example 2:
+Requirements:
+ - You are looking for a place to dine. The restaurant should be in the centre and should be in the moderate price range.
+ - The restaurant should serve lebanese food.
+ - Make sure you get address.
+Conversation:
+CUSTOMER: I 'm looking to find a place to eat in the centre of town that needs to have a moderate price range .   Can you give me some options ?
+ASSISTANT: There are quite a few options in the centre of town . There 's Chinese , Italian , Spanish , Turkish and British food just to name a few . What would you like ?
+CUSTOMER: Is there a Lebanese option ? I 'm really craving some Lebanese right now .
+ASSISTANT: Yes ! Ali Baba is a great Lebanese restaurant that would suit your needs . It 's located at 59 Hills Road City Centre . What other information do you need ?
+CUSTOMER: Can you please get me a reservation at Ali Baba for tonight at 7PM ?
+ASSISTANT: Certainly , how many people will be in your party total ?
+CUSTOMER: Actually , can I just get the address there for now please ?
+ASSISTANT: The Ali Baba is located at 59 Hills Road City Centre . Would you like any other information ?
+CUSTOMER: That 's all I need . Thanks for your help !
+ASSISTANT: You have a nice triip and thank you for contacting us . Have a great day !
+
+Example 3:
+Requirements:
+ - You are looking forward to trying local restaurants
+ - The restaurant should be in the centre
+ - The restaurant should serve chinese food
+ - Once you find a restaurant, make sure you get address
+Conversation:
+CUSTOMER: Hi there, I'm looking for a restaurant that serves Chinese food in the centre of the city.
+ASSISTANT: Sure, we have a few great options. Would you like a high-end, moderate or cheap priced one?
+
+

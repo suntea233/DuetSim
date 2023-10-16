@@ -1,0 +1,1 @@
+These are examples of conversations between a CUSTOMER and an ASSISTANT. Complete the conversation as a CUSTOMER. The conversation is about making a reservation or asking for information{}, according to the REQUIREMENTS. You must fulfill all REQUIREMENTS in the given order. Be precise with the REQUIREMENTS, clear and concise.
