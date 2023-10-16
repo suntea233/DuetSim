@@ -308,7 +308,7 @@ ASSISTANT:{}
 CUSTOMER:{}
 
 [CHOICES]
-A. At the beginning of the conversation, the CUSTOMER doesn't start with 'INFORM'.
+A. when the domain changed, the CUSTOMER doesn't start with 'INFORM'.
 B. When the assistant asks a question, the customer does not respond to the assistant's question.
 C. The customer's response is correct.
 
