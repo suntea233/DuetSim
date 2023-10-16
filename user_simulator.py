@@ -301,7 +301,7 @@ class LLM_US(Agent):
     def get_supervisor_answer(self, cnt, observation, da_response):
         if cnt > 4:
             return True
-        self.supervisor_prompt = """[INSTRUCTION]Now you will play the role of a supervisor to determine which option is correct.
+        self.supervisor_prompt = """[INSTRUCTION]Now you will play the role of a supervisor to determine which option is correct. CUSTOMER's and ASSISTANT's replies are made by [[INTENT,DOMAIN,SLOT,VALUE]].
 
 [CONVERSATION]
 ASSISTANT:{}
