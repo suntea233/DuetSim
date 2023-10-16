@@ -10,8 +10,8 @@ from transformers import AutoTokenizer, AutoModelForSeq2SeqLM, AutoModel, LlamaT
 class FlanT5:
     def __init__(self):
         self.device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-        self.ckpt = "google/flan-t5-xl"
-        # self.ckpt = 'google/flan-t5-xxl'
+        # self.ckpt = "google/flan-t5-xl"
+        self.ckpt = 'google/flan-t5-xxl'
         self.model = AutoModelForSeq2SeqLM.from_pretrained(self.ckpt)
         self.model.to(self.device)
         self.tokenizer = AutoTokenizer.from_pretrained(self.ckpt)
