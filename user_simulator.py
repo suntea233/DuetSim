@@ -403,7 +403,7 @@ The correct answer is
         self.da_history.append([self.name, da_response])
         self.output_action = da_response
 
-        self.history.append([self.name, usr_response])
+
 
         if self.output_action[0][0].lower() != 'thank' and self.output_action[0][0].lower() != 'bye':
             self.natural_language = self.get_nlg(sys_observation,temp_da_response)
@@ -415,7 +415,9 @@ The correct answer is
             self.natural_language = self.get_second_nlg(sys_observation,natural_language)
 
         self.sys_observation = sys_observation
-
+        
+        self.history.append([self.name, self.natural_language])
+        
         self.policy.predict(
             sys_act=self.input_action, usr_act=self.output_action)
 
